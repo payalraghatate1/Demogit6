@@ -18,6 +18,7 @@ public class naukaripopupw {
 		driver.manage().window().maximize();
 		String tit=driver.getTitle();
 		System.out.println("the main title is:"+tit);
+		System.out.println("payal11111111");
 		//WebElement window=driver.findElement(By.xpath("//img[@alt='Amazon']"));
 		Set<String> window=driver.getWindowHandles();
 		int count=window.size();
